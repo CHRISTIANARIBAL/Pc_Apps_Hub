@@ -1,5 +1,5 @@
 Pc Apps Hub
 
-Waiting for frontend [@clarcgumapon](https://github.com/clarcgumapon) ____-_-__-_-____!
+Waiting for frontend [@clarkgumapon](https://github.com/clarkgumapon) ____-_-__-_-____!
 
 Prototyping................
