@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC Apps Hub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <header class="bg-blue-600 text-white py-4 shadow-md fixed top-0 left-0 w-full z-10">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <h1 class="text-2xl font-bold">PC Apps Hub</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#" class="hover:underline">Home</a></li>
+                    <li><a href="#apps" class="hover:underline">Apps</a></li>
+                    <li><a href="#about" class="hover:underline">About</a></li>
+                    <li><a href="#contact" class="hover:underline">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="bg-blue-500 text-white py-16 text-center mt-16">
+        <h2 class="text-4xl font-bold">Find the Best PC Apps in One Place</h2>
+        <p class="mt-4 text-lg">Discover, Download, and Explore Top Applications for Your PC</p>
+        <div class="mt-6 flex justify-center">
+            <input type="text" placeholder="Search for apps..." class="px-4 py-2 rounded-l-lg text-gray-900 w-64">
+            <button class="bg-yellow-400 px-6 py-2 rounded-r-lg text-gray-900 font-bold">Search</button>
+        </div>
+    </section>
+
+    <section id="apps" class="container mx-auto py-12 px-4 mt-16">
+        <h3 class="text-3xl font-bold text-center mb-8">Popular Categories</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-white p-6 shadow-lg rounded-lg text-center hover:scale-105 transition">
+                <h4 class="text-xl font-bold">Productivity</h4>
+                <p class="mt-2">Best tools for work and organization.</p>
+            </div>
+            <div class="bg-white p-6 shadow-lg rounded-lg text-center hover:scale-105 transition">
+                <h4 class="text-xl font-bold">Multimedia</h4>
+                <p class="mt-2">Top video and photo editing software.</p>
+            </div>
+            <div class="bg-white p-6 shadow-lg rounded-lg text-center hover:scale-105 transition">
+                <h4 class="text-xl font-bold">Security</h4>
+                <p class="mt-2">Protect your PC with antivirus and VPNs.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-gray-200 py-12 mt-16">
+        <div class="container mx-auto px-4">
+            <h3 class="text-3xl font-bold text-center mb-8">Featured Apps</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white p-6 shadow-lg rounded-lg hover:shadow-xl transition">
+                    <h4 class="text-xl font-bold">App Name 1</h4>
+                    <p class="mt-2">A brief description of the app.</p>
+                    <button class="mt-4 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">Download</button>
+                </div>
+                <div class="bg-white p-6 shadow-lg rounded-lg hover:shadow-xl transition">
+                    <h4 class="text-xl font-bold">App Name 2</h4>
+                    <p class="mt-2">A brief description of the app.</p>
+                    <button class="mt-4 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">Download</button>
+                </div>
+                <div class="bg-white p-6 shadow-lg rounded-lg hover:shadow-xl transition">
+                    <h4 class="text-xl font-bold">App Name 3</h4>
+                    <p class="mt-2">A brief description of the app.</p>
+                    <button class="mt-4 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">Download</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="container mx-auto py-12 px-4 text-center mt-16">
+        <h3 class="text-3xl font-bold mb-4">About PC Apps Hub</h3>
+        <p class="text-lg">PC Apps Hub is your one-stop platform for discovering the best applications for your computer. Stay updated with the latest software releases.</p>
+    </section>
+
+    <section id="contact" class="bg-gray-300 py-12 text-center mt-16">
+        <h3 class="text-3xl font-bold mb-4">Contact Us</h3>
+        <p class="text-lg">Have questions or suggestions? Reach out to us!</p>
+        <form class="mt-6 max-w-lg mx-auto">
+            <input type="text" placeholder="Your Name" class="w-full px-4 py-2 mb-4 rounded-lg">
+            <input type="email" placeholder="Your Email" class="w-full px-4 py-2 mb-4 rounded-lg">
+            <textarea placeholder="Your Message" class="w-full px-4 py-2 mb-4 rounded-lg"></textarea>
+            <button class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="bg-blue-600 text-white text-center py-6 mt-12">
+        <p>&copy; 2025 PC Apps Hub. All Rights Reserved.</p>
+        <p class="mt-2">Follow us on 
+            <a href="#" class="underline">Twitter</a>, 
+            <a href="#" class="underline">Facebook</a>, 
+            <a href="#" class="underline">Instagram</a>
+        </p>
+    </footer>
+</body>
+</html>
